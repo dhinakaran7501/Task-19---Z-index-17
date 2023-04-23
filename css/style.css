@@ -1,0 +1,45 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+.main_container{
+	position:relative;
+}
+.red{
+	width:200px;
+	height:200px;
+	background-color:red;
+	
+	position:absolute;
+	
+	margin-left:25px;
+	margin-top:25px;
+	
+	z-index:1;
+}
+.green{
+	width:200px;
+	height:200px;
+	background-color:green;
+	
+	position:absolute;
+	
+	margin-left:50px;
+	margin-top:50px;
+	
+	z-index:3;
+}
+
+.blue{
+	width:200px;
+	height:200px;
+	background-color:blue;
+	
+	position:absolute;
+	
+	margin-left:75px;
+	margin-top:75px;
+
+	z-index:2;
+}
